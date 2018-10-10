@@ -16,6 +16,33 @@
     <!-- Custom styles for this template -->
     <link href="<?=base_url('assets/css/shop-homepage.css')?>" rel="stylesheet">
 
+    <style type="text/css">
+    	.modal-header {
+		    display: -ms-flexbox;
+		    -ms-flex-align: start;
+		    align-items: flex-start;
+		    -ms-flex-pack: justify;
+		    justify-content: space-between;
+		    padding: 1rem;
+		    border-bottom: 1px solid #e9ecef;
+		    border-top-left-radius: .3rem;
+		    border-top-right-radius: .3rem;
+		}
+
+		.modal-header {
+		    display: -ms-flexbox;
+		    /* display: flex; */
+		    -ms-flex-align: start;
+		    align-items: flex-start;
+		    -ms-flex-pack: justify;
+		    justify-content: space-between;
+		    padding: 1rem;
+		    border-bottom: 1px solid #e9ecef;
+		    border-top-left-radius: .3rem;
+		    border-top-right-radius: .3rem;
+		}
+    </style>
+
   </head>
 
   <body>
@@ -203,6 +230,27 @@
 
     </div>
     <!-- /.container -->
+
+    <!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog modal-lg">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div style="display: -ms-flexbox; -ms-flex-align: start; align-items: flex-start; -ms-flex-pack: justify; justify-content: space-between; padding: 1rem; border-bottom: 1px solid #e9ecef; border-top-left-radius: .3rem; border-top-right-radius: .3rem;">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Em construção</h4>
+	        </div>
+	        <div class="modal-body">
+	          <img src="<?=base_url('assets/img/logo1.png')?>" class="img-responsive img-thumbnail" alt="Logo">
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
