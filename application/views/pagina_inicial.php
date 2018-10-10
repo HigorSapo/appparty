@@ -264,6 +264,12 @@
     <script src="<?=base_url('assets/js/vendor/jquery/jquery.min.js')?>"></script>
     <script src="<?=base_url('assets/js/vendor/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
 
+    <script type="text/javascript">
+
+    	$("#myModal").modal('show');
+    
+    </script>
+
   </body>
 
 </html>
