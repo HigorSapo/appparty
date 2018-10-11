@@ -10,6 +10,8 @@
 
     <title>{title}</title>
 
+    
+
     <!-- Bootstrap core CSS -->
     <link href="<?=base_url('assets/js/vendor/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
 
@@ -33,11 +35,34 @@
 		    margin-top: -22px;
 		    margin-left: 70px;
     	}
+
+    	html, body {
+		  width: 100%;
+		  height: 100%;
+		}
+
+		.bg-img {
+		  position: relative;
+		  width: 100%;
+		  height: 100%;
+		  background: url("<?=base_url('assets/img/bg/img1.jpg')?>") center center no-repeat;
+		  background-size: cover;
+		}
+		.bg-img:before {
+		  content: '';
+		  position: absolute;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+		  opacity: .0;
+		}
     </style>
 
   </head>
 
-  <body>
+  <body class="bg-img">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-menu fixed-top">
