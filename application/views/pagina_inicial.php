@@ -26,6 +26,13 @@
     	.bg-menu {
     		background-color: #92439d6b!important;
     	}
+
+    	.imgParceiro {
+    		width: 85px;
+		    position: absolute;
+		    margin-top: -22px;
+		    margin-left: 70px;
+    	}
     </style>
 
   </head>
@@ -69,11 +76,11 @@
 
         <div class="col-lg-3">
 
-          <h1 class="my-4">Shop Name</h1>
+          <h1 class="my-4">Parceiros</h1>
           <div class="list-group">
-            <a href="#" class="list-group-item">Category 1</a>
-            <a href="#" class="list-group-item">Category 2</a>
-            <a href="#" class="list-group-item">Category 3</a>
+            <a href="#" class="list-group-item">The Week <img src="<?=base_url('assets/img/parceiros/parceiro-1.png')?>" class="img-responsive imgParceiro" alt="Img-parceiro"></a>
+            <a href="#" class="list-group-item">Bubu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="<?=base_url('assets/img/parceiros/parceiro-2.png')?>" class="img-responsive imgParceiro" alt="Img-parceiro"></a>
+            <a href="#" class="list-group-item">Candy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="<?=base_url('assets/img/parceiros/parceiro-3.png')?>" class="img-responsive imgParceiro" alt="Img-parceiro"></a>
           </div>
 
         </div>
