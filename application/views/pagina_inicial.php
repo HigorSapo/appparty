@@ -17,30 +17,15 @@
     <link href="<?=base_url('assets/css/shop-homepage.css')?>" rel="stylesheet">
 
     <style type="text/css">
-    	.modal-header {
-		    display: -ms-flexbox;
-		    -ms-flex-align: start;
-		    align-items: flex-start;
-		    -ms-flex-pack: justify;
-		    justify-content: space-between;
-		    padding: 1rem;
-		    border-bottom: 1px solid #e9ecef;
-		    border-top-left-radius: .3rem;
-		    border-top-right-radius: .3rem;
-		}
+    	.imgLogo {
+    		width: 142px;
+		    position: absolute;
+		    margin-top: -39px;
+    	}
 
-		.modal-header {
-		    display: -ms-flexbox;
-		    /* display: flex; */
-		    -ms-flex-align: start;
-		    align-items: flex-start;
-		    -ms-flex-pack: justify;
-		    justify-content: space-between;
-		    padding: 1rem;
-		    border-bottom: 1px solid #e9ecef;
-		    border-top-left-radius: .3rem;
-		    border-top-right-radius: .3rem;
-		}
+    	.bg-menu {
+    		background-color: #92439d6b!important;
+    	}
     </style>
 
   </head>
@@ -48,9 +33,11 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-menu fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">
+        	<img src="<?=base_url('assets/img/logo2.png')?>" class="img-responsive imgLogo" alt="Logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -266,7 +253,7 @@
 
     <script type="text/javascript">
 
-    	$("#myModal").modal('show');
+    	// $("#myModal").modal('show');
     
     </script>
 
